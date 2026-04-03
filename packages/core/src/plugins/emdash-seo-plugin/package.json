@@ -1,0 +1,15 @@
+{
+  "name": "@emdash-plugin/seo",
+  "version": "1.0.0",
+  "description": "SEO plugin for EmDash — meta tags, Open Graph, sitemaps, robots.txt, and SEO analysis",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./sandbox": "./src/sandbox-entry.ts"
+  },
+  "peerDependencies": {
+    "emdash": "^0.1.0"
+  },
+  "keywords": ["emdash", "emdash-plugin", "seo", "meta-tags", "sitemap"],
+  "license": "MIT"
+}
